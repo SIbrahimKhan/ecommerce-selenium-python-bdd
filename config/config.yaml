@@ -1,0 +1,29 @@
+environment: qa
+
+qa:
+  base_url: "https://www.saucedemo.com/"
+  browser: "chrome"
+  headless: true
+  implicit_wait: 5
+  explicit_wait: 10
+
+staging:
+  base_url: "https://www.saucedemo.com/"
+  browser: "chrome"
+  headless: true
+  implicit_wait: 5
+  explicit_wait: 10
+
+users:
+  standard_user:
+    username: "standard_user"
+    password: "secret_sauce"
+  locked_out_user:
+    username: "locked_out_user"
+    password: "secret_sauce"
+  problem_user:
+    username: "problem_user"
+    password: "secret_sauce"
+  performance_glitch_user:
+    username: "performance_glitch_user"
+    password: "secret_sauce"

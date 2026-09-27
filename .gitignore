@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# WebDriver cache
+.wdm/
+
+# Generated test artifacts
+reports/junit/
+reports/screenshots/
+reports/allure/
+
+# IDE
+.vscode/
+.idea/

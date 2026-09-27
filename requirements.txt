@@ -1,0 +1,6 @@
+selenium==4.23.1
+behave==1.2.6
+webdriver-manager==4.0.2
+PyYAML==6.0.2
+allure-behave==2.13.5
+requests==2.32.3
